@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1> WordBeater </h1>
+    </header>
+<!-- main app -->
+    <main>
+        <p>Type The Given Word Within <span> 5 </span> Seconds:</p>
+        <h1 class="word">  </h1>
+        <input type="text" placeholder="Start typeing...">
+        <h3 class="status"> game over!! </h3>
+        <div class="info">
+            <h2 class="time">Time left: <span id="time"> 5 </span></h2>
+            <h2 class="time">Score: <span id="score"> 0 </span></h2>
+        </div>
+        <button id="btn"> click me </button>
+        <!-- footer of the app instruction part -->
+        <footer class="instruction">
+            <h2>Instructions</h2>
+            <p>
+                Type each word in the given amount of seconds to score.
+                To play again, just type the current word. Your score will reset
+            </p>
+        </footer>
+
+    </main>
+
+    <script src="app/app.js">  </script>
+</body>
+</html>
